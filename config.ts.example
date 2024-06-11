@@ -1,0 +1,11 @@
+export default {
+  seed: "bottom drive obey lake curtain smoke basket hold race lonely fit walk", // menimonic 12 phase
+  endpoint: "wss://goldberg.avail.tools/ws",
+  appId: 0, //default
+  amount: 1, // send amount ex) 1 AVL
+  recipient: "", // account id for token transfer
+  validator: "", // validator stash account id
+  bondAmount: 1, // staking amount ex) 1 AVL
+  changeCommissionRate: 5 // ex) 5%
+}
+

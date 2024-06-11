@@ -1,0 +1,30 @@
+{
+  "name": "avail-tx-submiter",
+  "version": "0.0.1",
+  "description": "Shows a basic usage of the Avail polkadot js wrapper",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "npm run clean && tsc",
+    "connect": "npm run build && node build/src/connect.js",
+    "transfer": "npm run build && node build/src/transfer.js",
+    "data-submission": "npm run build && node build/src/data-submission.js",
+    "data-submission-async": "npm run build && node build/src/data-submission-async.js",
+    "create-app-id": "npm run build && node build/src/create-app-id.js",
+    "subscribe-blocks": "npm run build && node build/src/subscribe-blocks.js",
+    "query-app-data": "npm run build && node build/src/query-app-data.js",
+    "query-proof": "npm run build && node build/src/query-proof.js",
+    "query-proof-data": "npm run build && node build/src/query-proof-data.js",
+    "submit-proposal": "npm run build && node build/src/submit-proposal.js",
+    "dispatch-data-root": "npm run build && node build/src/dispatch-data-root.js",
+    "staking": "npm run build && node build/src/staking.js",
+    "payout-all": "npm run build && node build/src/payout-all.js",
+    "change-commission": "npm run build && node build/src/change-commission.js"
+  },
+  "dependencies": {
+    "avail-js-sdk": "^0.2.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
